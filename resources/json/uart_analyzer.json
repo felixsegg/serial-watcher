@@ -1,0 +1,477 @@
+{
+  "type": "Async Serial",
+  "settings": [
+    {
+      "title": "Input Channel",
+      "tooltip": "Standard Async Serial",
+      "disabled": false,
+      "setting": {
+        "type": "Channel",
+        "channelRequired": true,
+        "value": 1
+      }
+    },
+    {
+      "title": "Bit Rate (Bits/s)",
+      "tooltip": "Specify the bit rate in bits per second.",
+      "disabled": false,
+      "setting": {
+        "type": "Integer",
+        "minimumValue": 1,
+        "maximumValue": 100000000,
+        "value": 9600
+      }
+    },
+    {
+      "title": "Bits per Frame",
+      "tooltip": "Select the number of bits per frame",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "1 Bit per Transfer",
+            "dropdownTooltip": "",
+            "value": 1
+          },
+          {
+            "dropdownText": "2 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 2
+          },
+          {
+            "dropdownText": "3 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 3
+          },
+          {
+            "dropdownText": "4 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 4
+          },
+          {
+            "dropdownText": "5 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 5
+          },
+          {
+            "dropdownText": "6 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 6
+          },
+          {
+            "dropdownText": "7 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 7
+          },
+          {
+            "dropdownText": "8 Bits per Transfer (Standard)",
+            "dropdownTooltip": "",
+            "value": 8
+          },
+          {
+            "dropdownText": "9 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 9
+          },
+          {
+            "dropdownText": "10 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 10
+          },
+          {
+            "dropdownText": "11 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 11
+          },
+          {
+            "dropdownText": "12 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 12
+          },
+          {
+            "dropdownText": "13 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 13
+          },
+          {
+            "dropdownText": "14 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 14
+          },
+          {
+            "dropdownText": "15 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 15
+          },
+          {
+            "dropdownText": "16 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 16
+          },
+          {
+            "dropdownText": "17 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 17
+          },
+          {
+            "dropdownText": "18 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 18
+          },
+          {
+            "dropdownText": "19 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 19
+          },
+          {
+            "dropdownText": "20 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 20
+          },
+          {
+            "dropdownText": "21 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 21
+          },
+          {
+            "dropdownText": "22 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 22
+          },
+          {
+            "dropdownText": "23 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 23
+          },
+          {
+            "dropdownText": "24 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 24
+          },
+          {
+            "dropdownText": "25 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 25
+          },
+          {
+            "dropdownText": "26 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 26
+          },
+          {
+            "dropdownText": "27 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 27
+          },
+          {
+            "dropdownText": "28 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 28
+          },
+          {
+            "dropdownText": "29 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 29
+          },
+          {
+            "dropdownText": "30 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 30
+          },
+          {
+            "dropdownText": "31 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 31
+          },
+          {
+            "dropdownText": "32 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 32
+          },
+          {
+            "dropdownText": "33 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 33
+          },
+          {
+            "dropdownText": "34 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 34
+          },
+          {
+            "dropdownText": "35 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 35
+          },
+          {
+            "dropdownText": "36 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 36
+          },
+          {
+            "dropdownText": "37 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 37
+          },
+          {
+            "dropdownText": "38 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 38
+          },
+          {
+            "dropdownText": "39 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 39
+          },
+          {
+            "dropdownText": "40 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 40
+          },
+          {
+            "dropdownText": "41 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 41
+          },
+          {
+            "dropdownText": "42 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 42
+          },
+          {
+            "dropdownText": "43 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 43
+          },
+          {
+            "dropdownText": "44 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 44
+          },
+          {
+            "dropdownText": "45 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 45
+          },
+          {
+            "dropdownText": "46 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 46
+          },
+          {
+            "dropdownText": "47 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 47
+          },
+          {
+            "dropdownText": "48 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 48
+          },
+          {
+            "dropdownText": "49 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 49
+          },
+          {
+            "dropdownText": "50 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 50
+          },
+          {
+            "dropdownText": "51 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 51
+          },
+          {
+            "dropdownText": "52 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 52
+          },
+          {
+            "dropdownText": "53 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 53
+          },
+          {
+            "dropdownText": "54 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 54
+          },
+          {
+            "dropdownText": "55 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 55
+          },
+          {
+            "dropdownText": "56 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 56
+          },
+          {
+            "dropdownText": "57 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 57
+          },
+          {
+            "dropdownText": "58 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 58
+          },
+          {
+            "dropdownText": "59 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 59
+          },
+          {
+            "dropdownText": "60 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 60
+          },
+          {
+            "dropdownText": "61 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 61
+          },
+          {
+            "dropdownText": "62 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 62
+          },
+          {
+            "dropdownText": "63 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 63
+          },
+          {
+            "dropdownText": "64 Bits per Transfer",
+            "dropdownTooltip": "",
+            "value": 64
+          }
+        ],
+        "value": 8
+      }
+    },
+    {
+      "title": "Stop Bits",
+      "tooltip": "Specify the number of stop bits.",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "1 Stop Bit (Standard)",
+            "dropdownTooltip": "",
+            "value": 1
+          },
+          {
+            "dropdownText": "1.5 Stop Bits",
+            "dropdownTooltip": "",
+            "value": 1.5
+          },
+          {
+            "dropdownText": "2 Stop Bits",
+            "dropdownTooltip": "",
+            "value": 2
+          }
+        ],
+        "value": 2
+      }
+    },
+    {
+      "title": "Parity Bit",
+      "tooltip": "Specify None, Even, or Odd Parity.",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "No Parity Bit (Standard)",
+            "dropdownTooltip": "",
+            "value": 0
+          },
+          {
+            "dropdownText": "Even Parity Bit",
+            "dropdownTooltip": "",
+            "value": 1
+          },
+          {
+            "dropdownText": "Odd Parity Bit",
+            "dropdownTooltip": "",
+            "value": 2
+          }
+        ],
+        "value": 0
+      }
+    },
+    {
+      "title": "Significant Bit",
+      "tooltip": "Select if the most significant bit or least significant bit is transmitted first",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "Least Significant Bit Sent First (Standard)",
+            "dropdownTooltip": "",
+            "value": 1
+          },
+          {
+            "dropdownText": "Most Significant Bit Sent First",
+            "dropdownTooltip": "",
+            "value": 0
+          }
+        ],
+        "value": 1
+      }
+    },
+    {
+      "title": "Signal inversion",
+      "tooltip": "Specify if the serial signal is inverted",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "Non Inverted (Standard)",
+            "dropdownTooltip": "",
+            "value": 0
+          },
+          {
+            "dropdownText": "Inverted",
+            "dropdownTooltip": "",
+            "value": 1
+          }
+        ],
+        "value": 0
+      }
+    },
+    {
+      "title": "Mode",
+      "tooltip": "",
+      "disabled": false,
+      "setting": {
+        "type": "NumberList",
+        "options": [
+          {
+            "dropdownText": "Normal",
+            "dropdownTooltip": "",
+            "value": 0
+          },
+          {
+            "dropdownText": "MP - Address indicated by MSB=0",
+            "dropdownTooltip": "Multi-processor, 9-bit serial",
+            "value": 1
+          },
+          {
+            "dropdownText": "MDB - Address indicated by MSB=1 (TX only)",
+            "dropdownTooltip": "Multi-drop, 9-bit serial",
+            "value": 2
+          }
+        ],
+        "value": 0
+      }
+    }
+  ]
+}
